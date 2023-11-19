@@ -4,6 +4,6 @@
 - Libro
 - Prestamo
 
-## Diagrama de clases
+## Diagrama UML
 ![BibliotecaRealJPG.jpg](..%2F..%2FDocuments%2FBibliotecaRealJPG.jpg)
 
