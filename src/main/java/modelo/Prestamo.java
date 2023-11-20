@@ -68,11 +68,11 @@ public class Prestamo {
 
     @Override
     public String toString() {
-        return "Nombre del bibliotecario: " + this.bibliotecario.getNombreBibliotecario() + "\n" +
-               "Nombre del usuario: " + this.usuario.getNombreUsuario() + "\n" +
-               "Nombre del libro: " + this.libro.getNombreLibro() + "\n" +
+        return "Bibliotecario: " + this.bibliotecario.getNombre() + "\n" +
+               "Usuario: " + this.usuario.getNombre() + "\n" +
+               "Libro: " + this.libro.getNombreLibro() + "\n" +
                "Fecha de inicio: " + this.fechaInicio + "\n" +
-               "Fecha de termino: " + this.fechaTermino + "\n";
+               "Fecha de término: " + this.fechaTermino + "\n";
     }
 }
 

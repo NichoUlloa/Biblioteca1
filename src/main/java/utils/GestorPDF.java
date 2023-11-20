@@ -54,7 +54,7 @@ public class GestorPDF {
         lineasPdf[4] = "Autor: " + prestamo.getLibro().getAutor();
         lineasPdf[5] = "Editorial: " + prestamo.getLibro().getEditorial();
         lineasPdf[6] = "ISBN: " + prestamo.getLibro().getISBN();
-        lineasPdf[7] = "Usuario: " + prestamo.getUsuario().getNombreUsuario();
+        lineasPdf[7] = "Usuario: " + prestamo.getUsuario().getNombre();
         lineasPdf[8] = "Rut: " + prestamo.getUsuario().getRut();
         lineasPdf[9] = "Número telefónico: " + prestamo.getUsuario().getNumeroTelefonico();
         return lineasPdf;
