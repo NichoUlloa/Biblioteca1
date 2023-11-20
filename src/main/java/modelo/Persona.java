@@ -27,7 +27,6 @@ public abstract class Persona {
 
     public abstract String getTipo();
 
-
     @Override
     public String toString() {
         return "Nombre: " + this.nombre + "\n" +

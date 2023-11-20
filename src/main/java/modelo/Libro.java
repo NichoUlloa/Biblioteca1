@@ -45,6 +45,19 @@ public class Libro {
         this.ISBN = ISBN;
     }
 
+    private enum categoriaLibro {
+        SUSPENSO("Suspenso"),
+        CIENCIA("Ciencia"),
+        FICCION("Ficcion"),
+        TERROR("Terror"),
+        AUTOAYUDA("Auto ayuda");
+
+        private String categoriaLibro;
+        private categoriaLibro(String categoriaLibro) {
+            this.categoriaLibro = categoriaLibro;
+        }
+    }
+
     @Override
     public String toString() {
         return "Nombre del libro: " + this.NombreLibro + "\n" +
