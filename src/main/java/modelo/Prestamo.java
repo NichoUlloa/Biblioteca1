@@ -75,4 +75,3 @@ public class Prestamo {
                "Fecha de término: " + this.fechaTermino + "\n";
     }
 }
-
