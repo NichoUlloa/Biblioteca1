@@ -6,7 +6,6 @@ public class Libro {
     private String Editorial;
     private String ISBN;
 
-
     public Libro(String NombreLibro, String Autor, String Editorial, String ISBN) {
         this.NombreLibro = NombreLibro;
         this.Autor = Autor;
